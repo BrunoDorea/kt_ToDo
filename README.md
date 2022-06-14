@@ -1,13 +1,28 @@
-# LAB - Criando um app de lembretes e tarefas com Kotlin.
-O curso pode ser acessado na plataforma da [Digital Innovation One](https://digitalinnovation.one/).
+<h1 align="center">
+  To Do &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Mobile
+</h1>
 
-## Sobre o Autor
-<img align="left" width="190" height="190" margin-right="150px" src="https://drive.google.com/uc?export=view&id=1Kn8aRAQbLZx9BejvZD2eK8kLhp8j9i5m"> Sou um desenvolvedor Android que ama novos desafios e não perde a oportunidade de aprender coisas novas, sou organizado, pontual e estou sempre disponível para o ajudar, procuro estar cercado de pessoas que extraem o melhor de mim, me ajudando a sempre desempenhar o meu máximo. Por isso, quero compartilhar com vocês um pouco do que sinto quando programo e retribuir com tudo o que sei.
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-[![Linkedin Badge](https://img.shields.io/badge/-Ezequiel_Messore-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ezequielmessore/)](https://www.linkedin.com/in/ezequielmessore/)  [![Gmail Badge](https://img.shields.io/badge/-ezequielmessore@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:ezequielmessore@gmail.com)](mailto:ezequielmessore@gmail.com)
+## 🚀 Tecnologias
 
-## <br />Descrição do Lab.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- Kotlin
+
+## 💻 Projeto
+
 O objetivo do projeto é criar um App de `To do list` do zero mostrando o processo de desenvolvimento usando Kotlin, uma das linguagens de programação de maior ascensão dos últimos anos. Além disto, desafiar a evolução do App e entregar uma solução mais robusta pensando sempre na melhor experiência do usuário.
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
 
 ## Aulas e materiais de estudo.
 - Aula - 01: Apresentação pessoal e apresentação do curso.
@@ -36,11 +51,4 @@ O objetivo do projeto é criar um App de `To do list` do zero mostrando o proces
 - Aula - 12: Finalizando o app.
    - [Empty States](https://material.io/design/communication/empty-states.html#content)
 
-
-## Desafios
-Tornar nosso aplicativo um aplicativo resiliente que não perca nossas tarefas salvas quando é encerrado, para isto podemos usar a estratégia de salvar nossos dados localmente.  
-Podemos fazer isto de duas maneiras usar nossas [Shared Preferences](https://developer.android.com/training/data-storage/shared-preferences?hl=pt-br) ou nosso [SQLite](https://developer.android.com/training/data-storage/sqlite) para utilizar os esses conceitos de uma maneira facilitada devemos usar as seguintes bibliotecas:
-
- - [Room](https://developer.android.com/training/data-storage/room): é um banco de dados que oferece uma camada de abstração sobre o SQLite, e nos ajuda a lidar melhor com a complexidade do mesmo.
-
- - [DataStore](https://developer.android.com/topic/libraries/architecture/datastore?hl=pt-br): é uma solução de armazenamento de dados que permite armazenar pares de chave-valor ou objetos tipados.
+---
